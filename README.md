@@ -1,7 +1,7 @@
 Lea-Web-Template-Spider
 =======================
 
-网站模板爬虫
+Go语言开发的网站模板爬虫
 
 快速下载网站模板, 比如 http://themeforest.net/ 里的模板.
 
