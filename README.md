@@ -7,7 +7,7 @@ Leacrawler is written by golang. Just for fun and hope you like it.
 ## usage:
 1. go get github.com/lealife/leacrawler
 2. create a new file and put the code as follows:
-<pre>
+'''
 package main
 
 import (
@@ -18,4 +18,4 @@ func main() {
 	# url and the target path
 	leacrawler.Fetch("http://lealife.com", "/Users/life/Desktop/lealife")
 }
-</pre>
+'''
