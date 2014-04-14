@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	# url and the target path
+	// url and the target path
 	leacrawler.Fetch("http://lealife.com", "/Users/life/Desktop/lealife")
 }
 ```
