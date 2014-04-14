@@ -1,10 +1,21 @@
-Lea-Web-Template-Spider
-=======================
+# leacrawler
 
-Go语言开发的网站模板爬虫
+Use leacrawler you can download web template(include html, css, js, image) as you want. (such as the http://themeforest.net/ web template)
 
-快速下载网站模板, 比如 http://themeforest.net/ 里的模板.
+Leacrawler is written by golang. Just for fun and hope you like it.
 
-用法参照main.go
+## usage:
+1. go get github.com/lealife/leacrawler
+2. create a new file and put the code as follows:
+<pre>
+package main
 
-任何关于该程序的问题可以发我邮箱lifephp@gmail.com.
+import (
+	"github.com/lealife/leacrawler"
+)
+
+func main() {
+	# url and the target path
+	leacrawler.Fetch("http://lealife.com", "/Users/life/Desktop/lealife")
+}
+</pre>
