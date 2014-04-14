@@ -8,7 +8,7 @@ import (
     "log"
     "os"
     "path/filepath"
-    "github/lealife/leacrawler/util"
+    "github.com/lealife/leacrawler/util"
     "sync"
 )
 
