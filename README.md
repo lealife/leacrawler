@@ -7,7 +7,7 @@ Leacrawler is written by golang. Just for fun and hope you like it.
 ## usage:
 1. go get github.com/lealife/leacrawler
 2. create a new file and put the code as follows:
-```
+```golang
 package main
 
 import (
