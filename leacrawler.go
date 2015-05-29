@@ -3,7 +3,7 @@ import (
 	"time"
 	"fmt"
 )
-
+// Fetch
 func Fetch(url, path string) {
 	start := time.Now()
 	fmt.Println("start...")
