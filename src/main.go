@@ -1,16 +1,16 @@
 package main
 import (
-	"lealife"
+	"github.com/lealife/leacrawler"
 	"time"
 	"fmt"
-	"os"
+	// "os"
 )
 
 func main() {
 	start := time.Now()
 	fmt.Println("start...")
 
-	lea := lealife.NewLeaSpider()
+	lea := leacrawler.NewCrawler()
 	
     url := "http://www.keenthemes.com/preview/metronic_admin"
     path := "/Users/life/Desktop/LeaSpider";

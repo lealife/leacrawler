@@ -1,6 +1,6 @@
 package main
 import (
-	"lealife"
+	"github.com/lealife/leacrawler"
 	"time"
 	"fmt"
 	"os"
@@ -26,7 +26,7 @@ func main() {
 	start := time.Now()
 	fmt.Println("start...")
 
-	lea := lealife.NewLeaSpider()
+	lea := leacrawler.NewCrawler()
 	
 //    url := "http://bucketadmin.themebucket.net/index.html"
 //    path := "/Users/life/Desktop/LeaSpider";
