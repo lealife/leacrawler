@@ -1,0 +1,11 @@
+language: go
+go: 1.3
+
+# services:
+#  - memcache # github.com/revel/revel/cache
+#  - redis-server
+
+install:
+  - export PATH=$PATH:$HOME/gopath/bin
+  - go get -v github.com/lealife/leacrawler/...
+script:
